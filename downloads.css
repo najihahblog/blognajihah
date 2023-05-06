@@ -1,0 +1,44 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background:url("image/pic20.jpg") no-repeat;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 233, 220);
+  
+  }
+  .Download{
+    background:#ecabcb;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(20, 24, 21);;
+  }
+  
+  .download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1e4dc;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #504d3d; 
+  }

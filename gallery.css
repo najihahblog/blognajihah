@@ -1,0 +1,71 @@
+/* Body styles */
+body{
+  margin: 0;
+  padding: 0;
+  background:url("image/pic20.jpg") no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: url("image/pic20.jpg") no-repeat;
+  }
+  
+  /* Introduction section styles */
+  #intro {
+    background-color: url("image/pic20.jpg") no-repeat;
+    color: rgb(18, 17, 17);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-top: 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-container .button {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 120%;
+    margin: 0 10px;
+    background: #f1e4dc;;
+    border: 2px solid #e7995e;
+    border-radius: 8px;
+    font-size: 19px;
+    color:  #0e0404;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .button-container .button:hover {
+    color:#FEFAE0;
+  }
+  
+  .button-container .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #0f0f0f;
+    z-index: -1;
+    transition: .5s;
+  }
+  
+  .button-container .button:hover::before {
+    width: 100%;
+  }

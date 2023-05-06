@@ -1,0 +1,96 @@
+body{
+
+  background: #fab7b7;
+}
+h1 {
+  text-align: center;
+  font-size : 150%;
+  margin-top: 50px;
+  width:auto;
+  color: #ee5b5b;
+}
+
+form {
+  width: 600px;
+  margin: 0 auto;
+  background-color:#e07c7c;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #070606;
+  color:#0c1022;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  animation-delay: 0.5s;
+  transition: all 0.8s ease;
+  
+  }
+  
+  table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  }
+  
+  table td {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: rgb(10, 8, 8);
+  }
+  
+  table tr:nth-child(odd) {
+  background-color: #f0a485f4;
+  }
+  
+  input[type="text"], input[type="password"], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #010101;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 16px;
+  }
+  
+  select {
+  height: 40px;
+  }
+  
+  input[type="submit"], input[type="reset"], input[type="button"] {
+  background-color: #203621;
+  color: #dabdbd;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  }
+  
+  input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+  background-color: #3f9c42;
+  }
+  
+  input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+  outline: none;
+  }
+  
+  input[type="radio"] {
+  margin-right: 5px;
+  }
+  
+  .cancel-btn {
+  background-color: #f44336;
+  }
+  
+  .cancel-btn:hover {
+  background-color: #da190b;
+  }
+
+.signup-link {
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+.signup-link a {
+  color: blue;
+}
